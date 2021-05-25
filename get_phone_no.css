@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* margin-left: 20px; */
+}
+.heading1{
+   color:rgb(8, 8, 88) ;
+   font-weight: 600;
+   margin: 30px 0 60px 90px;
+   padding: 5px;
+}
+.heading2{
+    color:rgb(8, 8, 88) ;
+    font-weight: 700;
+    margin: 5px 0 20px 90px;
+}
+.para1{
+    margin: 5px 0 20px 90px;
+    color: gray;
+    font-weight: 600;
+}
+ul.link_head{
+    display: inline-flex;
+    list-style: none;
+    padding: 20px 50px 10px 40px;
+    margin: 20px 50px 20px 40px;
+    text-align: left;
+     justify-content: left;
+}
+ .link a{
+     display: flex;
+     text-align: left;
+    color: rgb(83, 76, 76);
+    margin: 30px 100px 10px 10px;
+    border: 5px rgb(118, 112, 112);
+    font-weight: 500;
+    box-sizing: content-box;
+    font-size: 20px;
+ }
+  form{
+  
+      display: inline;
+      justify-content: space-between;
+  }
+ input.phn-no{
+    align-items: left;
+     width: 30%;
+     margin: 10px 20px 10px 90px;
+      border-radius: 50px;
+      padding:10px 50px 10px 10px;
+     border-style: hidden;
+      background-color: lightgrey;
+ }
+ button.btn{
+      width: 20%;
+      border-radius: 50px;
+    margin: 10px 50px 10px 30px;
+    padding:8px 10px 10px 10px;
+    text-align: center;
+     color: white;
+      background-color: crimson;     
+  }
+ .img{
+     width: 30vw;
+      padding: 90px 20px 20px 0 ;
+      
+    
+  }
+  .ul2{
+      list-style: none;
+      text-decoration: none;
+  }
+  .form2 input{
+      width: 15%;
+      text-align: center;
+      height: 50px;
+      border-style: none;
+      background-color:lightgray;
+      color: black;
+      border-radius: 5px; 
+      
+  }
+  .para2{
+    color: gray;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 5px 30px 0 ;
+    text-align: left;
+  }
+  .para2 a{
+    color: gray;
+    font-size: 12px;
+  }
+  .otpimg{
+      width: 100%;
+      height: 25vh;
+      margin: 0;
+      padding: 0;
+  }
+  .modal-dialog{
+      width: 100vw;
+  }
+ .modal-title{
+    color:rgb(8, 8, 88) ;
+    font-weight: 600;
+    margin: 5px 5px 0 10px;
+    /* padding: 5px; */
+ }
+ .ul2 li{
+     text-decoration: none;
+     font-size: 12px;
+     margin: 10px 5px 5px 0;
+ }

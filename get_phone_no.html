@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="get_phone_no.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="get_phone_no.js" />
+</head>
+
+<body>
+  <!-- <header class="head">
+
+    </header> -->
+  <section class="form">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7">
+          <h3 class="heading1">
+            SHYFT <i class="fa fa-chevron-double-right"></i>
+          </h3>
+          <h2 class="heading2">Great! Lorenzo,<br />everything is ready.</h2>
+          <p class="para1">
+            You will recieve a confirmation email soon <br />
+            with your booking details.
+          </p>
+          <!-- Links -->
+          <section class="section-row">
+            <div class="links">
+              <ul class="link_head">
+                <li class="link">
+                  <a href="#" class="link1"> Hajar Rd,315 Rd</a><a href="#" class="link3">Dubai International,T1 </a>
+                </li>
+                <!-- <li class="link"></li> -->
+                <li class="link">
+                  <a href="#" class="link2"> 23 Mar 2020, 11:00 AM</a><a href="#" class="link4"> 23 Mar 2020, 4:30
+                    PM</a>
+                </li>
+                <!-- <li class="link"></li> -->
+              </ul>
+            </div>
+          </section>
+          <section>
+            <form>
+              <input type="text" class="phn-no" placeholder="Enter you phone number" />
+              <button type="button" class="btn btn-success" data-target="#exampleModal" data-toggle="modal">
+                Get OTP
+              </button>
+            </form>
+          </section>
+        </div>
+        <div class="col-lg-5">
+          <img src="img/forlogin.jpg" class="img" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Enter Verification code</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- ----------------------Body of popup------------------------>
+          <div class="container">
+            <div class="row">          
+                <div class="col-lg-7">
+              <p class="para2">We have just sent a verfication code to <br> <a href="#" class="email">xyz@gmail.com</a> and <a href="#" class="phn">+91 38178490038</a></p>
+              <form class="form2">
+                <input type="text" class="otp">
+                <input type="text" class="otp">
+                <input type="text" class="otp">
+                <input type="text" class="otp">
+              </form>
+              <ul class="ul2">
+                <li class="li1"> <a href="#"> Send Otp again</a></li>
+                <li class="li2"> <a href="#"> Change Phone Number</a></li>
+              </ul>
+
+            </div>
+            <div class="col-lg-5">
+              <img src="/img/forotp.jpg" alt="" class="otpimg">
+            </div>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+            <button type="button" class="btn btn-primary">Verify</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
