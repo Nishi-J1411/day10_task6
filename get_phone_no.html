@@ -49,7 +49,7 @@
           <section>
             <form>
               <input type="text" class="phn-no" placeholder="Enter you phone number" />
-              <button type="button" class="btn btn-success" data-target="#exampleModal" data-toggle="modal">
+              <button type="button" class="btn" data-target="#exampleModal" data-toggle="modal">
                 Get OTP
               </button>
             </form>
@@ -64,25 +64,25 @@
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content" id="modalcontainer">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel"> Enter Verification code</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" id="modalbody">
           <!-- ----------------------Body of popup------------------------>
-          <div class="container">
+          <div class="container" id="content">
             <div class="row">          
-                <div class="col-lg-7">
+                <div class="col-lg-6">
               <p class="para2">We have just sent a verfication code to <br> <a href="#" class="email">xyz@gmail.com</a> and <a href="#" class="phn">+91 38178490038</a></p>
               <form class="form2">
-                <input type="text" class="otp">
-                <input type="text" class="otp">
-                <input type="text" class="otp">
-                <input type="text" class="otp">
+                <input type="text" class="otp" maxlength="1" size="1">
+                <input type="text" class="otp" maxlength="1" size="1">
+                <input type="text" class="otp" maxlength="1" size="1">
+                <input type="text" class="otp" maxlength="1" size="1">
               </form>
               <ul class="ul2">
                 <li class="li1"> <a href="#"> Send Otp again</a></li>
@@ -90,14 +90,14 @@
               </ul>
 
             </div>
-            <div class="col-lg-5">
-              <img src="/img/forotp.jpg" alt="" class="otpimg">
+            <div class="col-lg-6">
+              <img src="img/forotp.jpg" alt="" class="otpimg">
             </div>
           </div>
           </div>
           <div class="modal-footer">
             <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-            <button type="button" class="btn btn-primary">Verify</button>
+            <button type="button" class="btn2">Verify</button>
           </div>
           </div>
         </div>
